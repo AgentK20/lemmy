@@ -7,3 +7,13 @@ appVersion: "0.17.4"
 sources:
   - https://github.com/LemmyNet/lemmy
 home: https://join-lemmy.org
+dependencies:
+  - name: nginx
+    version: 15.0.2
+    repository: https://charts.bitnami.com/bitnami
+  - name: postgresql
+    version: 12.5.7
+    repository: https://charts.bitnami.com/bitnami
+  - name: postgresql-ha
+    version: 11.7.5
+    repository: https://charts.bitnami.com/bitnami

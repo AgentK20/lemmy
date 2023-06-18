@@ -7,6 +7,10 @@ docker/lemmy_mine.hjson
 docker/dev/env_deploy.sh
 volumes
 
+# helm dependencies
+docker/helm/lemmy/charts/*
+docker/helm/lemmy/Chart.lock
+
 # ide config
 .idea
 .vscode
